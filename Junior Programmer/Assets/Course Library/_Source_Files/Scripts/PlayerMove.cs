@@ -8,10 +8,13 @@ public class PlayerMove : MonoBehaviour
         
     }
 
+
+	public float speed = 20;
     // Update is called once per frame
     void Update()
     {
         // Move the vehicle forward
-	transform.Translate(Vector3.Forward * Time.deltaTime * 20);
+	transform.Translate(Vector3.forward * Time.deltaTime * speed);
+
     }
 }

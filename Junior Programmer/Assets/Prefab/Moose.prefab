@@ -364,6 +364,9 @@ GameObject:
   - component: {fileID: 6633283924757796667}
   - component: {fileID: 3496003309320622218}
   - component: {fileID: -7495092256125014290}
+  - component: {fileID: 2842827559891517576}
+  - component: {fileID: 4621990473481123905}
+  - component: {fileID: 3381668884475904169}
   m_Layer: 0
   m_Name: Moose
   m_TagString: Untagged
@@ -441,6 +444,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62ef94fdeea5d624ca7462d5eb35646e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &2842827559891517576
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4400879773597220043}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22283047, y: 0.41993135, z: 0.41038597}
+  m_Center: {x: -0.0023037954, y: 0.21183114, z: 0.06532778}
+--- !u!54 &4621990473481123905
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4400879773597220043}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &3381668884475904169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4400879773597220043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e25f494ca645b944a444bacc461fa47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &5017571605293921612

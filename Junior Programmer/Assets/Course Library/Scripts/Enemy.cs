@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         enemyRb = GetComponent<Rigidbody>();
-        player = GameObject.Find("The Orb");
+        player = GameObject.Find("Player");
     }
 
     // Update is called once per frame

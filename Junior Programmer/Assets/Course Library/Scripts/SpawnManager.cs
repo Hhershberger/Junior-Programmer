@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
@@ -11,7 +13,8 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
       SpawnEnemyWave(waveNumber);
-      Instantiate(powerupPrefab, GenerateSpawnPosition();
+      Instantiate(powerupPrefab, GenerateSpawnPosition(),
+      powerupPrefab.transform.rotation);
     }
     private Vector3 GenerateSpawnPosition () {
         float spawnPosX = Random.Range(-spawnRange, spawnRange);
